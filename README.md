@@ -1,4 +1,4 @@
-# Setting up The Subscriptions Web API
+# Setting up The Subscriptions Web API Locally
 
 1. Use the command `git clone ` to clone the repository.
 2. Change your working directory to *backend*.
