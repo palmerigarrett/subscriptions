@@ -1,5 +1,3 @@
-This is the technical assessment challenge for the engineering role on the Subscriptions Team, at [The Atlantic](https://www.theatlantic.com). Please follow the instructions carefully.
-
 ## Background
 The following is a hypothetical situation that would require some engineering and database design. Imagine we have an external e-commerce vendor that handles ordering of our subscription products. We'd like to have a copy of our subscription related records in an internal database that we can query directly. Let's assume we have a web-hook setup to listen for changes that occur in our external vendor.
 
@@ -45,23 +43,3 @@ Below is an example post request the endpoint should consume.
   }
 ```
 Please include instructions describing the process to setup/install any prerequisite software, initialize the relational database, and run the web application.
-
-## Submission
-Please email [sjaromirski@theatlantic.com](mailto:sjaromirski@theatlantic.com) with one of the following:
-1. The URL of a public GitHub (or GitLab) repository that contains your code and instructions.
-1. A gzipped tarball containing a git repository with your code and instructions.
-
-## Evaluation Criteria
-Your submission will be evaluated primarily on your adherence to the instructions and on the functional completeness of the solution.
-
-Extra points will be awarded for:
-* Tests.
-* Irregularity detection and alerting (for instance, if record with a new id is posted with the same email as an existing record.).
-* Read endpoint(s).
-* A full git history showing your development style.
-* Dockerization of application.
-
-## Notes
-* The goal is to see what you are able to accomplish in maximum 2 hours. If you're still working after 2 hours, please just document (1) what you were able to complete and (2) what you would do if you were to devote more time to the challenge - and then submit those descriptions along with whatever code you've completed (following the Submission instructions above).
-* Please submit your solution within a few days of receiving the challenge.
-* Please feel free to email [sjaromirski@theatlantic.com](mailto:sjaromirski@theatlantic.com) with any questions.
